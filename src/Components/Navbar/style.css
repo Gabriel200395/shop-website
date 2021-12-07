@@ -1,0 +1,55 @@
+.nav-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 180px;
+}
+
+.nav-c h3 {
+  padding: 15px 15px 15px 15px;
+  background-color: #e67e34;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0px 60px;
+  font-size: 17px;
+}
+
+.nav-c ul {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+  list-style: none;
+}
+
+.nav-c ul li {
+  margin: 0px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 10px;
+}
+
+.nav-c .sacola {
+  padding-left: 50px;
+  padding-right: 0px;
+}
+
+.nav-c .icon-drop i {
+  font-size: 15px;
+}
+
+.menu-items{
+  display: flex; 
+  align-items: center;
+  padding-right: 30px;
+} 
+
+.menu-items a{
+  text-decoration: none;
+  outline: none;
+  color:#000; 
+}

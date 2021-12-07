@@ -1,0 +1,11 @@
+.footer-c {
+  display: flex;
+  list-style: none;
+  padding-left: 40px;
+}
+
+.footer-c li {
+  margin: 0px 15px; 
+  cursor: pointer; 
+  font-size: 17px;
+}
