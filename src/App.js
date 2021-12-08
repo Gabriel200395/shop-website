@@ -1,15 +1,7 @@
-import Home from "./Components/Home/Home";
-import Footer from "./Components/Footer/Footer";
-import Navbar from "./Components/Navbar/Navbar";
+import Page from "./pages/Home/index"
 
 function App() {
-  return (
-    <>
-      <Navbar /> 
-      <Home /> 
-      <Footer />
-    </>
-  );
+  return <Page />;
 }
 
 export default App;
