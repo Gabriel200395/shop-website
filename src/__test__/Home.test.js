@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Home from "./Home";
+import Home from "../Components/Home/Home";
 
 describe("testando componente Home", () => {
   test("testando slide default", () => {

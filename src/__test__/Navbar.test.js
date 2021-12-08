@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar/Navbar";
 
 const items = ["my Account", "Search"];
 
