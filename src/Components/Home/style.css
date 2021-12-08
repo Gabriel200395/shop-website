@@ -38,13 +38,19 @@
   border: none;
   text-transform: uppercase;
   outline: none;
-  margin: 0px 7px;
+  margin: 0px 0px; 
+  background-color: #dfdfdf; 
+  height: 50px;
+  width: 50px;
+  text-indent: -30px; 
+  cursor: pointer;
 }
 
 
 
 .next i {
   font-size: 10px;
+  text-indent: 3px;
 }
 
 .prev {
@@ -55,6 +61,15 @@
   background-color: none;
 }
 
+.prev-brand {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 170px;
+}
+
+
+
 .prev button {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -62,11 +77,17 @@
   border: none;
   text-transform: uppercase;
   outline: none;
-  margin: 0px 7px;
+  margin: 0px 0px;
+  background-color: #dfdfdf; 
+  height: 50px;
+  width: 50px;
+  text-indent: 22px; 
+  cursor: pointer; 
 }
 
 .prev i {
-  font-size: 10px;
+  font-size: 12px;
+  text-indent: -13px;
 }
 
 .conteudo-slider {

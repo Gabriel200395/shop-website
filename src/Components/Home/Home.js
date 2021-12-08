@@ -96,7 +96,7 @@ function Home() {
             <Conteudo key={i.id} active={slide === index} {...i} />
           ))}
 
-          <div className="prev">
+          <div className={`prev ${produtos[slide].produto === "brand sweatshirt" && "prev-brand"}`}>
             <i className="fas fa-arrow-left" />
             <button onClick={prevSlide}>prev</button>
           </div>
