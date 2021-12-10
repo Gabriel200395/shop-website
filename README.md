@@ -1,7 +1,7 @@
-<h1 align="center">App de Pesquisa Bancaria</h1>  
+<h1 align="center">Shop Website</h1>  
 
 <h4 align="center">
-  <img src="./public/img/app-bancaria.gif"/><br>
+  <img src="src/assets/shop.gif"/><br>
 </h4>
 
 <p align="center">
