@@ -14,29 +14,15 @@
 
 <!--EXEMPLO:-->
 - [React](https://pt-br.reactjs.org/)
-- [Axios](https://www.npmjs.com/package/axios)
-- [Typescript](https://www.typescriptlang.org/) 
 - [React-library](https://testing-library.com/docs/react-testing-library/api/)
 
 ## 💻 Como usar
 
-- Clone o projeto: `git clone https://github.com/Gabriel200395/pesquisa-bancaria-app.git`
-- Entrar na pasta do projeto: `cd pesquisa-bancaria-app`
+- Clone o projeto: `git clone https://github.com/Gabriel200395/shop-website.git`
+- Entrar na pasta do projeto: `cd shop-website`
 - Iniciar a aplicação: `yarn start`
 - baixe na aplicação:  `yarn install` 
 - Irá abrir uma página no browser (se não abrir, vá até [http://localhost:3000](http://localhost:300/)).
-
-
-## 💻 Teste unitario app
-
-<h4 align="center">
-  <img src="./public/img/teste-app.gif"/><br>
-</h4>
-
-
-
-
-
 
 ## :pencil: Autor
 
