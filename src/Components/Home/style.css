@@ -12,7 +12,7 @@
 .dropdown-c li {
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -184,7 +184,7 @@
 }
 
 .menu-item{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600; 
+  font-weight: 700!important; 
+  font-style: italic;
   color: #e67e34;
 }

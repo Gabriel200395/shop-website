@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function useHome() {
-  const [slide, setSlide] = useState(0);
+  const [slide, setSlide] = useState(3);
 
   const produtos = [
     {
