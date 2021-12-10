@@ -1,10 +1,10 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import Home from "../Components/Home/Home";
 
+
 describe("testando componente Home", () => {
   test("testando slide default", () => {
     render(<Home />);
-
     expect(screen.getByRole("button", { name: /next/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /prev/i })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /women/i })).toBeInTheDocument();

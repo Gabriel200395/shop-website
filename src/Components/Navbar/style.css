@@ -38,8 +38,15 @@
   padding-right: 0px;
 }
 
+.nav-c .icon-drop  {
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+}
+
+
 .nav-c .icon-drop i {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .menu-items{

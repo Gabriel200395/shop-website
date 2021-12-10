@@ -17,14 +17,13 @@ function Navbar() {
             </li>
           </ul>
         )}
-        <a
-          href="#dropmenu"
+        <button
           className="icon-drop"
           aria-expanded="true"
           onClick={() => setDropdown((d) => !d)}
         >
           <i className={`${dropdown ? "fas fa-times" : "fas fa-bars"}`} />
-        </a>
+        </button>
       </div>
     </nav>
   );

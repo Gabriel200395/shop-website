@@ -20,7 +20,7 @@ describe("testando componente navbar", () => {
   test("abrindo dropdown", () => {
     render(<Navbar />);
 
-    const dropdown = screen.getByRole("link", { expanded: true });
+    const dropdown = screen.getByRole("button", { expanded: true });
     fireEvent.click(dropdown);
 
     expect(screen.getByText(items[0])).toBeInTheDocument();
@@ -31,7 +31,7 @@ describe("testando componente navbar", () => {
   test("fechar dropdown", () => {
     render(<Navbar />);
 
-    const dropdown = screen.getByRole("link", { expanded: true });
+    const dropdown = screen.getByRole("button", { expanded: true });
     fireEvent.doubleClick(dropdown);
 
     expect(screen.queryByText(items[0])).not.toBeInTheDocument();
