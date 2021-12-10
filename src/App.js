@@ -1,6 +1,16 @@
-import Home from "./pages/Home"
+import Footer from "./components/Footer/Footer";
+import Container from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Navbar/>
+      <Container/>
+      <Footer />
+    </>
+  );
 }
+
 export default App;
