@@ -1,6 +1,6 @@
-import Footer from "../../components/Footer/Footer";
-import Container from "../../components/Home/Home";
-import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
+import Container from "../../Components/Home/Home";
+import Navbar from "../../Components/Navbar/Navbar";
 
 
 function Home() {
