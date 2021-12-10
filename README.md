@@ -1,7 +1,7 @@
 <h1 align="center">Shop Website</h1>  
 
 <h4 align="center">
-  <img src="src/assets/shop.gif"/><br>
+  <img src="/src/assets/images/gif.jpg"/><br>
 </h4>
 
 <p align="center">
